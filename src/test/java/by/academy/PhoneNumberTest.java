@@ -8,9 +8,6 @@ import java.util.List;
 import static by.academy.week1.PhoneNumber.*;
 import static junit.framework.TestCase.assertEquals;
 
-
-/**
- */
 public class PhoneNumberTest {
 
     @Test
