@@ -7,11 +7,6 @@ import java.util.List;
  * Solution for task 1.1
  */
 public class PhoneNumber {
-    public static void main(String[] args) {
-        List<Integer> phoneNumber = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
-        System.out.println(getPhoneNumberFirst(phoneNumber));
-        System.out.println(getPhoneNumberSecond(phoneNumber));
-    }
 
     public static String getPhoneNumberFirst(List<Integer> phoneNumbers) {
         StringBuilder sb = new StringBuilder();
